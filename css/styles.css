@@ -615,11 +615,11 @@ button {
 
 /*============FILTER в ПОРТФОЛІО============*/
 
-.filter {
+.site-filter {
     padding-bottom: 47px;
 }
 
-.site-filter {
+.filter {
     margin-bottom: 50px;
     display: flex;
     column-gap: 8px;
