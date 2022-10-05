@@ -558,7 +558,7 @@ button {
 
 /* ============ Постійні клієнти ============*/
 
-.client-title {
+.our-client__title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
@@ -568,13 +568,13 @@ button {
     margin-bottom: 50px;
 }
 
-.client-list {
+.client {
     display: flex;
     box-sizing: border-box;
     column-gap: 30px;
 }
 
-.client-link {
+.client__link {
     display: flex;
     width: 170px;
     height: 92px;
@@ -588,7 +588,7 @@ button {
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.client-icon {
+.client__icon {
     fill: #AFB1B8;
 
     transition-property: fill;
@@ -596,19 +596,19 @@ button {
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.client-link:hover .client-icon {
+.client__link:hover .client__icon {
     fill: #2196F3;
 }
 
-.client-link:focus .client-icon {
+.client__link:focus .client__icon {
     fill: #2196F3;
 }
 
-.client-link:hover {
+.client__link:hover {
     border: 1px solid #2196F3;
 }
 
-.client-link:focus {
+.client__link:focus {
     border: 1px solid #2196F3;
 }
 
