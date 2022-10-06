@@ -22,14 +22,11 @@
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.white-address:hover {
+&:hover,
+&:focus {
     color: var(--accent-color);
-}
-
-.white-address:focus {
-    color: var(--accent-color);
+     }
 }
 
 .white-cont {
@@ -44,12 +41,9 @@
     transition-property: color, transform;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.white-cont:hover {
+&:hover,
+&:focus {
     color: var(--accent-color);
-}
-
-.white-cont:focus {
-    color: var(--accent-color);
+    }
 }

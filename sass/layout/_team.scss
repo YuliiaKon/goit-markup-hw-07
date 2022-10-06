@@ -72,6 +72,16 @@
     transition-property: background, fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        background: #2196F3;
+    }
+
+    &:hover .social-list__icon,
+    &:focus .social-list__icon {
+    fill: #FFFFFF;
+    }
 }
 
 .social-list__icon {
@@ -80,20 +90,4 @@
     transition-property: fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.social-list__link:hover {
-    background: #2196F3;
-}
-
-.social-list__link:focus {
-    background: #2196F3;
-}
-
-.social-list__link:hover .social-list__icon {
-    fill: #FFFFFF;
-}
-
-.social-list__link:focus .social-list__icon {
-    fill: #FFFFFF;
 }

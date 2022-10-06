@@ -21,15 +21,12 @@
     transition-property: background;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 
 .button-primery:hover {
     color: #FFFFFF;
     background: #188CE8;
+    }
 }
 
-.button-primery:focus {
-    color: #FFFFFF;
-    background: #188CE8;
-}
+
+
