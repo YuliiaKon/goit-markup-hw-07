@@ -80,7 +80,7 @@
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-form-input:focus+.modal-form-icon {
+.modal-form-input:focus + .modal-form-icon {
     fill: #2196F3;
 }
 
@@ -131,15 +131,15 @@
 }
 
 
-.modal-form-check:checked+.modal-form-own-check {
+.modal-form-check:checked + .modal-form-own-check {
     background-color: var(--accent-color);
 }
 
-.modal-form-check:focus+.modal-form-own-check {
+.modal-form-check:focus + .modal-form-own-check {
     outline: #2196F3;
 }
 
-.modal-form-check:checked+.modal-form-own-check .modal-form-own-check-icon {
+.modal-form-check:checked + .modal-form-own-check .modal-form-own-check-icon {
     display: block;
     fill: #FFFFFF;
 }

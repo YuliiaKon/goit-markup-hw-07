@@ -96,17 +96,15 @@
 &:focus {
         fill: var(--accent-color);
     }
-}
 
-.tel-header:hover .header-tel-icon {
+.tel-header:hover &,
+.tel-header:focus & {
     fill: var(--accent-color);
     color: var(--accent-color);
 }
-
-.tel-header:focus .header-tel-icon {
-    fill: var(--accent-color);
-    color: var(--accent-color);
 }
+
+
 
 .tel-header {
     display: flex;

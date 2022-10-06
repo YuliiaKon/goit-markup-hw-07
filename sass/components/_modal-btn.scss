@@ -24,9 +24,10 @@
     transition-property: fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    
+    .modal-close-btn:hover &,
+    .modal-close-btn:focus & {
+        fill: #2196F3;
+    }
 }
 
-.modal-close-btn:hover .modal-close-icon,
-.modal-close-btn:focus .modal-close-icon {
-    fill: #2196F3;
-}
