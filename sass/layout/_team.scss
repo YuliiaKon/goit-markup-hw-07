@@ -78,11 +78,12 @@
         background: #2196F3;
     }
 
-    &:hover .social-list__icon,
-    &:focus .social-list__icon {
-    fill: #FFFFFF;
-    }
 }
+
+.social-list__link:hover .social-list__icon,
+.social-list__link:focus .social-list__icon {
+            fill: #FFFFFF;
+ }
 
 .social-list__icon {
     fill: #AFB1B8;

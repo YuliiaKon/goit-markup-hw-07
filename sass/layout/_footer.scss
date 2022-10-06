@@ -10,13 +10,13 @@
 }
 
 .web-footer {
-    @include font(26px, 700, 31px)
+    @include font(26px, 700, 31px);
     color: #2196F3;
     letter-spacing: 0.03em;
 }
 
 .studio-footer {
-    @include font(26px, 700, 31px)
+    @include font(26px, 700, 31px);
     color: #FFFFFF;
     letter-spacing: 0.03em;
 }

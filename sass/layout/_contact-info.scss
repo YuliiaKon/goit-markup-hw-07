@@ -10,7 +10,7 @@
 }
 
 .white-address {
-    @include font(14px, 400, 24px)
+    @include font(14px, 400, 24px);
     color: var(--white-text);
     font-family: 'Roboto';
     font-style: normal;
@@ -28,7 +28,7 @@
 }
 
 .white-cont {
-    @include font(14px, 400, 24px)
+    @include font(14px, 400, 24px);
     color: var(--white-fog);
     font-family: 'Roboto';
     font-style: normal;

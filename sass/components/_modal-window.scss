@@ -23,7 +23,7 @@
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.project-link:hover &,
-.project-link:focus & {
+.project-link:hover .work-overlay,
+.project-link:focus .work-overlay {
     transform: translateY(0%);
 }

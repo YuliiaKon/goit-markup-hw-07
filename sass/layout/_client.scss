@@ -1,5 +1,5 @@
 .our-client__title {
-    @include font(36px, 700, 42px)
+    @include font(36px, 700, 42px);
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
@@ -29,11 +29,6 @@
 &:focus {
     border: 1px solid #2196F3;
     }
-
-&:hover .client__icon,
-&:focus .client__icon {
-    fill: #2196F3;
-    }
 }
 
 .client__icon {
@@ -42,4 +37,9 @@
     transition-property: fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    .client__link:hover &,
+    .client__link:focus & {
+            fill: #2196F3;
+        }
 }
