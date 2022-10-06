@@ -1,4 +1,4 @@
-/*:root {
+:root {
     --primary-text-color: #212121;
     --title-text-color: #757575;
     --accent-color: #2196F3;
@@ -32,8 +32,8 @@
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
-}*/
-/*
+}
+
 h1,
 h2,
 h3,
@@ -58,9 +58,9 @@ img {
 
 button {
     cursor: pointer;
-}*/
+}
 
-/*
+
 .section {
     padding-top: 94px;
     padding-bottom: 94px;
@@ -73,11 +73,10 @@ button {
     margin-left: auto;
     margin-right: auto;
 }
-*/
 
 
 /* ============ ШАПКА, header ============*/
-/*
+
 .page-header {
     padding-top: 32px;
     padding-bottom: 32px;
@@ -281,9 +280,9 @@ button {
 .cursor {
     cursor: pointer;
 }
-*/
+
 /*============ ГЕРОЙ ============*/
-/*
+
 .hero {
     background-color: #C4C4C4;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/hero-img.jpg);
@@ -342,10 +341,10 @@ button {
 .button-primery:focus {
     color: #FFFFFF;
     background: #188CE8;
-}*/
+}
 
 /*============ НАШІ ПЕРЕВАГИ ============*/
-/*
+
 .our-power {
     padding-bottom: 47px;
 }
@@ -386,10 +385,10 @@ button {
     line-height: 1.71;
     letter-spacing: 0.03em;
 }
-*/
+
 
 /* ============ WHOT-WE-DO ============*/
-/*.whot-we-do {
+.whot-we-do {
     padding-top: 47px;
 }
 
@@ -451,9 +450,9 @@ button {
     color: #FFFFFF;
     padding-top: 27px;
 }
-*/
+
 /*============ НАША КОМАНДА ============*/
-/*
+
 .team {
     background: #F5F4FA;
     padding-top: 47px;
@@ -554,10 +553,9 @@ button {
     fill: #FFFFFF;
 }
 
-*/
 
 /* ============ Постійні клієнти ============*/
-/*
+
 .our-client__title {
     font-weight: 700;
     font-size: 36px;
@@ -614,7 +612,7 @@ button {
 
 
 /*============FILTER в ПОРТФОЛІО============*/
-/*
+
 .site-filter {
     padding-bottom: 47px;
 }
@@ -662,9 +660,9 @@ button {
     background: #2196F3;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
-*/
+
 /* ============WORK Портфоліо============*/
-/*
+
 .work {
     display: flex;
     column-gap: 30px;
@@ -716,9 +714,9 @@ button {
     letter-spacing: 0.03em;
     color: var(--title-text-color);
 }
-*/
+
 /* ============= МОДАЛЬНІ ВІКНА =============*/
-/*
+
 .work-thumb {
     position: relative;
     overflow: hidden;
@@ -754,7 +752,7 @@ button {
 
 
 /* ============ Футер ============*/
-/*
+
 .footer {
     background: #2F303A;
     text-decoration: none;
@@ -781,7 +779,7 @@ button {
     line-height: 1.19;
     letter-spacing: 0.03em;
 }
-/*
+
 .address {
     font-style: normal;
     text-decoration: none;
@@ -888,7 +886,7 @@ button {
 }
 
 /* ====Підписка====*/
-/*
+
 .subscribe-title {
     font-weight: 700;
     font-size: 14px;
@@ -970,7 +968,7 @@ button {
 
 
 /*========МОДАЛЬНЕ ВІКНО=========*/
-/*.backdrop {
+.backdrop {
     position: fixed;
     top: 0;
     left: 0;
@@ -1042,10 +1040,10 @@ button {
 .modal-close-btn:focus .modal-close-icon {
     fill: #2196F3;
 }
-*/
+
 
 /*=========ФОРМА=======*/
-/*.modal-caption {
+.modal-caption {
 
     font-weight: 700;
     font-size: 20px;
@@ -1197,5 +1195,4 @@ button {
 .modal-form-btn:focus {
     background-color: #188CE8;
 }
-*/
 /*=====Footer subscribe======*/
