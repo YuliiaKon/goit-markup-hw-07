@@ -22,9 +22,7 @@
 }
 
 .our-power-title {
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
+    @include font(14px, 700, 16px)
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--primary-text-color);
@@ -33,9 +31,7 @@
 }
 
 .our-power-text {
+    @include font(14px, 400, 24px)
     color: var(--title-text-color);
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
     letter-spacing: 0.03em;
 }

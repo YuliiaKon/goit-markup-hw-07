@@ -1,7 +1,5 @@
 .our-client__title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.16;
+    @include font(36px, 700, 42px)
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
