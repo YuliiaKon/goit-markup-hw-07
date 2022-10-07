@@ -219,7 +219,7 @@ button {
 .our-client__title {
   font-size: 36px;
   font-weight: 700;
-  line-height: 0.06px;
+  line-height: 1.1666666667;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
@@ -354,6 +354,7 @@ button {
 .our-power-list {
   display: flex;
   column-gap: 30px;
+  /* flex-wrap: wrap;*/
 }
 
 .our-power-item {
@@ -371,9 +372,9 @@ button {
 }
 
 .our-power-title {
-  font-size: 14px;
   font-weight: 700;
-  line-height: 0.0228571429px;
+  font-size: 14px;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primary-text-color);
@@ -384,7 +385,7 @@ button {
 .our-power-text {
   font-size: 14px;
   font-weight: 400;
-  line-height: 0.06px;
+  line-height: 1.7142857143;
   color: var(--title-text-color);
   letter-spacing: 0.03em;
 }
@@ -452,7 +453,7 @@ button {
 .web-footer {
   font-size: 26px;
   font-weight: 700;
-  line-height: 0.0442857143px;
+  line-height: 1.1923076923;
   color: #2196F3;
   letter-spacing: 0.03em;
 }
@@ -460,7 +461,7 @@ button {
 .studio-footer {
   font-size: 26px;
   font-weight: 700;
-  line-height: 0.0442857143px;
+  line-height: 1.1923076923;
   color: #FFFFFF;
   letter-spacing: 0.03em;
 }
@@ -478,7 +479,7 @@ button {
 .white-address {
   font-size: 14px;
   font-weight: 400;
-  line-height: 0.06px;
+  line-height: 1.7142857143;
   color: var(--white-text);
   font-family: "Roboto";
   font-style: normal;
@@ -495,7 +496,7 @@ button {
 .white-cont {
   font-size: 14px;
   font-weight: 400;
-  line-height: 0.06px;
+  line-height: 1.7142857143;
   color: var(--white-fog);
   font-family: "Roboto";
   font-style: normal;
