@@ -9,7 +9,7 @@
 }
 
 .our-power-item {
-    flex-basis: calc((100% - 3 * 30) / 4);
+    flex-basis: calc((100% - 3 * 30px) / 4);
 }
 
 .our-power-icon-box {
@@ -34,9 +34,7 @@
 }
 
 .our-power-text {
+    @include font(14px, 400, 24px);
     color: var(--title-text-color);
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
     letter-spacing: 0.03em;
 }
