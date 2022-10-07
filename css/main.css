@@ -60,6 +60,16 @@ button {
   margin: 0;
 }
 
+.title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.1666666667;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+  margin-bottom: 50px;
+}
+
 .container {
   width: 1200px;
   padding-left: 15px;
@@ -210,23 +220,29 @@ button {
   color: #FFFFFF;
 }
 
-.client__title {
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 1.1666666667;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--primary-text-color);
-  margin-bottom: 50px;
-}
-
+/*.client__title {
+    @include font(36px, 700, 42px);
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+    margin-bottom: 50px;
+}*/
 .client__item {
   display: flex;
   box-sizing: border-box;
   column-gap: 30px;
 }
 
-.client__link {
+.client__list-icon {
+  fill: #AFB1B8;
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.client__list-link:hover .client__list-icon, .client__list-link:focus .client__list-icon {
+  fill: #2196F3;
+}
+.client__list-link {
   display: flex;
   width: 170px;
   height: 92px;
@@ -238,18 +254,8 @@ button {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.client__link:hover, .client__link:focus {
+.client__list-link:hover, .client__list-link:focus {
   border: 1px solid #2196F3;
-}
-
-.client__icon {
-  fill: #AFB1B8;
-  transition-property: fill;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.client__link:hover .client__icon, .client__link:focus .client__icon {
-  fill: #2196F3;
 }
 
 .team {
@@ -257,16 +263,15 @@ button {
   padding-top: 47px;
 }
 
-.team__title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--primary-text-color);
-  margin-bottom: 50px;
-}
-
+/*.team__title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+    margin-bottom: 50px;
+}*/
 .team__list {
   display: flex;
   column-gap: 30px;
@@ -551,16 +556,15 @@ button {
   text-transform: uppercase;
 }
 
-.whot-we-do-title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
-  text-align: center;
-  letter-spacing: 0.03em;
-  margin-bottom: 50px;
-  color: var(--primary-text-color);
-}
-
+/*.whot-we-do-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-bottom: 50px;
+    color: var(--primary-text-color);
+}*/
 .whot-we-do-list {
   display: flex;
   column-gap: 30px;
