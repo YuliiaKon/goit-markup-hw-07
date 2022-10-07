@@ -87,12 +87,6 @@ button {
   flex-basis: calc((100% - 60px) / 3);
 }
 
-.page-navigation {
-  display: flex;
-  align-items: center;
-  column-gap: 93px;
-}
-
 .logo {
   color: #2196F3;
   font-family: Raleway, bold;
@@ -637,6 +631,12 @@ button {
   align-self: center;
   flex-basis: calc((100% - 32px) / 5);
   justify-content: center;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  column-gap: 93px;
 }
 
 .site-nav {
