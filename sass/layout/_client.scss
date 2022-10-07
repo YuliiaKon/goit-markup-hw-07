@@ -1,4 +1,4 @@
-.our-client__title {
+.client__title {
     @include font(36px, 700, 42px);
     text-align: center;
     letter-spacing: 0.03em;
@@ -6,7 +6,7 @@
     margin-bottom: 50px;
 }
 
-.client {
+.client__item {
     display: flex;
     box-sizing: border-box;
     column-gap: 30px;

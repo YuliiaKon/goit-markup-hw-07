@@ -216,7 +216,7 @@ button {
   color: #FFFFFF;
 }
 
-.our-client__title {
+.client__title {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.1666666667;
@@ -226,7 +226,7 @@ button {
   margin-bottom: 50px;
 }
 
-.client {
+.client__item {
   display: flex;
   box-sizing: border-box;
   column-gap: 30px;
