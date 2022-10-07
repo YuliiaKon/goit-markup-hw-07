@@ -220,13 +220,6 @@ button {
   color: #FFFFFF;
 }
 
-/*.client__title {
-    @include font(36px, 700, 42px);
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: var(--primary-text-color);
-    margin-bottom: 50px;
-}*/
 .client__item {
   display: flex;
   box-sizing: border-box;
@@ -263,15 +256,6 @@ button {
   padding-top: 47px;
 }
 
-/*.team__title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.16;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: var(--primary-text-color);
-    margin-bottom: 50px;
-}*/
 .team__list {
   display: flex;
   column-gap: 30px;
@@ -556,15 +540,6 @@ button {
   text-transform: uppercase;
 }
 
-/*.whot-we-do-title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.16;
-    text-align: center;
-    letter-spacing: 0.03em;
-    margin-bottom: 50px;
-    color: var(--primary-text-color);
-}*/
 .whot-we-do-list {
   display: flex;
   column-gap: 30px;
